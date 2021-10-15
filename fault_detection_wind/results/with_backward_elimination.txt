@@ -1,0 +1,57 @@
+#Backward Elimination. The results are slightly worse than when we had no data manipulation
+
+
+Regressor Name: ExtraTreesRegressor
+MSE: 0.38846719071439884
+MAE: 0.45093838637059436
+R2: 0.9969415335778739
+Time: 13.008891105651855
+##############################
+Regressor Name: RandomForestRegressor
+MSE: 0.3821682812426422
+MAE: 0.4440710234191168
+R2: 0.997003545991102
+Time: 35.95430374145508
+##############################
+Regressor Name: GradientBoostingRegressor
+MSE: 0.6174214009411478
+MAE: 0.6068246359014767
+R2: 0.9951183660473176
+Time: 41.764755725860596
+##############################
+Regressor Name: AdaBoostRegressor
+MSE: 2.4512008685932933
+MAE: 1.263996246013854
+R2: 0.9808179239892357
+Time: 43.73176336288452
+##############################
+Regressor Name: KNeighborsRegressor
+MSE: 6.143864917716695
+MAE: 1.688704030733411
+R2: 0.9510550893085525
+Time: 4.713728666305542
+##############################
+Regressor Name: DecisionTreeRegressor
+MSE: 0.7683272508604302
+MAE: 0.6141874663265054
+R2: 0.9939281717734407
+Time: 5.898778915405273
+##############################
+Regressor Name: BaggingRegressor
+MSE: 0.36156999504703735
+MAE: 0.4413989894422014
+R2: 0.9971357102082042
+Time: 81.77208685874939
+##############################
+Regressor Name: LinearRegression
+MSE: 1.021368398971244
+MAE: 0.7696121518067405
+R2: 0.9919371991333013
+Time: 1.8175954818725586
+##############################
+Regressor Name: MLPRegressor
+MSE: 46.419011928327286
+MAE: 5.169284704551626
+R2: 0.6324338811527191
+Time: 15.360081672668457
+##############################

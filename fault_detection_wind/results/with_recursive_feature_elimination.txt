@@ -1,0 +1,59 @@
+# After Recursive Feature Elimination.
+# Non of the feature selection methods lead to an improvement
+
+
+Regressor Name: ExtraTreesRegressor
+MSE: 0.726557528956486
+MAE: 0.6514939213964779
+R2: 0.9942505655701158
+Time: 4.010368824005127
+##############################
+Regressor Name: RandomForestRegressor
+MSE: 0.702696719671491
+MAE: 0.6358503508758329
+R2: 0.9945120910213834
+Time: 12.18839955329895
+##############################
+Regressor Name: GradientBoostingRegressor
+MSE: 0.8293122343126398
+MAE: 0.7123665194407819
+R2: 0.9934273605794443
+Time: 15.36622166633606
+##############################
+Regressor Name: AdaBoostRegressor
+MSE: 1.968863120137901
+MAE: 1.1044697347828947
+R2: 0.984482323780531
+Time: 17.529022693634033
+##############################
+Regressor Name: KNeighborsRegressor
+MSE: 3.0986314126835897
+MAE: 1.161722699533847
+R2: 0.9756839138937491
+Time: 1.1498830318450928
+##############################
+Regressor Name: DecisionTreeRegressor
+MSE: 1.275927694935518
+MAE: 0.8391158735640155
+R2: 0.9900173928670781
+Time: 2.089425563812256
+##############################
+Regressor Name: BaggingRegressor
+MSE: 0.6526052635970733
+MAE: 0.6210127894207597
+R2: 0.9947418045924192
+Time: 27.54196000099182
+##############################
+Regressor Name: LinearRegression
+MSE: 1.6781687966479026
+MAE: 0.9752620363393959
+R2: 0.98663510523655
+Time: 0.04681730270385742
+##############################
+Regressor Name: MLPRegressor
+MSE: 1.5187067947751978
+MAE: 0.9318455033436425
+R2: 0.9878974139131212
+Time: 7.971430778503418
+##############################
+
